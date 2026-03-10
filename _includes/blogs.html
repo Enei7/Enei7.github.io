@@ -1,0 +1,43 @@
+<!-- Blog List Component -->
+<!-- Usage: {% include blogs.html %} -->
+
+<div class="section-title">Tech Blog</div>
+
+<div class="blog-list">
+  {% if site.data.blogs %}
+    {% for blog in site.data.blogs %}
+    <a href="{{ blog.url }}" class="blog-card" target="_blank">
+      <div class="blog-info">
+        <div class="blog-title">{{ blog.title }}</div>
+        <div class="blog-meta">Published on {{ blog.platform }} - {{ blog.date }}</div>
+      </div>
+      <span class="blog-platform">{{ blog.platform }}</span>
+    </a>
+    {% endfor %}
+  {% else %}
+    <!-- Default blogs when no data file exists -->
+    <a href="#" class="blog-card" target="_blank">
+      <div class="blog-info">
+        <div class="blog-title">Understanding React Hooks: A Deep Dive</div>
+        <div class="blog-meta">Published on Medium - 2024-01-15</div>
+      </div>
+      <span class="blog-platform">Medium</span>
+    </a>
+
+    <a href="#" class="blog-card" target="_blank">
+      <div class="blog-info">
+        <div class="blog-title">Building Scalable APIs with Node.js</div>
+        <div class="blog-meta">Published on Dev.to - 2024-02-20</div>
+      </div>
+      <span class="blog-platform">Dev.to</span>
+    </a>
+
+    <a href="#" class="blog-card" target="_blank">
+      <div class="blog-info">
+        <div class="blog-title">Docker for Beginners: Getting Started Guide</div>
+        <div class="blog-meta">Published on Juejin - 2024-03-10</div>
+      </div>
+      <span class="blog-platform">Juejin</span>
+    </a>
+  {% endif %}
+</div>

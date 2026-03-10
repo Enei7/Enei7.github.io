@@ -1,0 +1,31 @@
+# Blog posts data for the homepage
+# Links to your external blog posts
+
+- title: "Understanding React Hooks: A Deep Dive"
+  platform: "Medium"
+  url: "https://medium.com/@yourusername/understanding-react-hooks"
+  date: "2024-01-15"
+  description: "A comprehensive guide to React Hooks and best practices."
+
+- title: "Building Scalable APIs with Node.js"
+  platform: "Dev.to"
+  url: "https://dev.to/yourusername/building-scalable-apis"
+  date: "2024-02-20"
+  description: "Learn how to design and implement scalable REST APIs."
+
+- title: "Docker for Beginners: Getting Started Guide"
+  platform: "Juejin"
+  url: "https://juejin.cn/post/your-post-id"
+  date: "2024-03-10"
+  description: "A beginner-friendly introduction to Docker containerization."
+
+# Platform options and their icons:
+# - Medium, Dev.to, Juejin, CSDN, Zhihu, Personal Blog, etc.
+# The platform name will be displayed as a tag next to the blog title.
+
+# To add more blog posts, copy the template below:
+# - title: "Your Blog Post Title"
+#   platform: "Platform Name"
+#   url: "https://link-to-your-blog.com"
+#   date: "YYYY-MM-DD"
+#   description: "Optional short description of the blog post."

@@ -1,0 +1,42 @@
+# Projects data for the homepage
+# Add your projects here
+
+- name: "Project One"
+  description: "A brief description of the project. What it does and the problem it solves."
+  tech:
+    - "React"
+    - "Node.js"
+    - "MongoDB"
+  github: "https://github.com/yourusername/project-one"
+  demo: "https://project-one-demo.com"
+  featured: true
+
+- name: "Project Two"
+  description: "Another project description. Highlight key features and technologies used."
+  tech:
+    - "Vue.js"
+    - "Python"
+    - "PostgreSQL"
+  github: "https://github.com/yourusername/project-two"
+  demo: "https://project-two-demo.com"
+  featured: true
+
+- name: "Project Three"
+  description: "Description of your third project. Mention the impact or results achieved."
+  tech:
+    - "Go"
+    - "Docker"
+    - "Kubernetes"
+  github: "https://github.com/yourusername/project-three"
+  demo: ""
+  featured: false
+
+# To add more projects, copy the template below and fill in your details:
+# - name: "Your Project Name"
+#   description: "A compelling description of your project"
+#   tech:
+#     - "Technology 1"
+#     - "Technology 2"
+#   github: "https://github.com/username/repo"
+#   demo: "https://demo-url.com"  # Optional
+#   featured: true  # Set to false for smaller projects

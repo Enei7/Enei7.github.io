@@ -1,0 +1,66 @@
+<!-- Experience Timeline Component -->
+<!-- Usage: {% include experience.html %} -->
+
+{% if site.data.experience %}
+
+  {% if site.data.experience.work %}
+  <div class="section-title">Work Experience</div>
+
+  <div class="experience-timeline">
+    {% for job in site.data.experience.work %}
+    <div class="experience-item">
+      <div class="experience-title">{{ job.company }}</div>
+      <div class="experience-subtitle">{{ job.position }}</div>
+      <div class="experience-period">{{ job.period }}{% if job.location %} | {{ job.location }}{% endif %}</div>
+      <p class="experience-desc">{{ job.description }}</p>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if site.data.experience.education %}
+  <div class="section-title">Education</div>
+
+  <div class="experience-timeline">
+    {% for edu in site.data.experience.education %}
+    <div class="experience-item">
+      <div class="experience-title">{{ edu.school }}</div>
+      <div class="experience-subtitle">{{ edu.degree }}</div>
+      <div class="experience-period">{{ edu.period }}{% if edu.gpa %} | GPA: {{ edu.gpa }}{% endif %}</div>
+      <p class="experience-desc">{{ edu.description }}</p>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+{% else %}
+  <!-- Default experience when no data file exists -->
+  <div class="section-title">Experience</div>
+
+  <div class="experience-timeline">
+    <div class="experience-item">
+      <div class="experience-title">Work Experience</div>
+      <div class="experience-subtitle">Company Name - Position</div>
+      <div class="experience-period">2024 - Present</div>
+      <p class="experience-desc">Description of your role, responsibilities, and key achievements.</p>
+    </div>
+
+    <div class="experience-item">
+      <div class="experience-title">Internship</div>
+      <div class="experience-subtitle">Company Name - Position</div>
+      <div class="experience-period">2023 - 2024</div>
+      <p class="experience-desc">Description of internship experience and technologies worked with.</p>
+    </div>
+  </div>
+
+  <div class="section-title">Education</div>
+
+  <div class="experience-timeline">
+    <div class="experience-item">
+      <div class="experience-title">University Name</div>
+      <div class="experience-subtitle">Bachelor's Degree in Computer Science</div>
+      <div class="experience-period">2020 - 2024</div>
+      <p class="experience-desc">Relevant coursework, achievements, and activities.</p>
+    </div>
+  </div>
+{% endif %}

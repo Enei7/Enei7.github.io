@@ -1,0 +1,84 @@
+# Language translations for the website
+# Add translations for all UI elements
+
+# Common
+common:
+  en:
+    language_toggle: "中文"
+    view_more: "View More"
+    contact_me: "Contact Me"
+    email_me: "Email Me"
+    github: "GitHub"
+    linkedin: "LinkedIn"
+    demo: "Demo"
+  zh:
+    language_toggle: "English"
+    view_more: "查看更多"
+    contact_me: "联系我"
+    email_me: "发送邮件"
+    github: "GitHub"
+    linkedin: "LinkedIn"
+    demo: "演示"
+
+# Navigation
+nav:
+  en:
+    projects: "Projects"
+    contact: "Contact"
+    photos: "Photos"
+  zh:
+    projects: "项目"
+    contact: "联系"
+    photos: "照片"
+
+# Hero Section
+hero:
+  en:
+    greeting: "Hello, I am"
+    intro: "I am passionate about AI research, focusing on Vision-Language Models, Large Language Models, and Motion Planning. I am currently seeking research opportunities."
+    contact_prompt: "If you are interested in collaboration, please contact me via email:"
+  zh:
+    greeting: "你好，我是"
+    intro: "我专注于人工智能研究，研究方向包括视觉语言模型、大语言模型和运动规划。目前正在寻找研究机会。"
+    contact_prompt: "如果您对合作感兴趣，请通过邮件联系我："
+
+# Sections
+sections:
+  en:
+    skills: "Technical Skills"
+    projects: "Projects"
+    work_experience: "Work Experience"
+    education: "Education"
+    blog: "Tech Blog"
+    github_stats: "GitHub Statistics"
+    contact: "Contact Me"
+    contact_intro: "I'm always open to discussing new opportunities, interesting projects, or potential collaborations."
+    research_interests: "Research Interests"
+  zh:
+    skills: "技术技能"
+    projects: "项目"
+    work_experience: "工作经历"
+    education: "教育背景"
+    blog: "技术博客"
+    github_stats: "GitHub 统计"
+    contact: "联系我"
+    contact_intro: "欢迎与我讨论新的机会、有趣的项目或潜在的合作。"
+    research_interests: "研究兴趣"
+
+# Skills Categories
+skill_categories:
+  en:
+    programming_languages: "Programming Languages"
+    frameworks: "Frameworks & Libraries"
+    tools: "Tools & Platforms"
+  zh:
+    programming_languages: "编程语言"
+    frameworks: "框架与库"
+    tools: "工具与平台"
+
+# Blog
+blog:
+  en:
+    published_on: "Published on"
+  zh:
+    published_on: "发布于"

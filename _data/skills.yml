@@ -1,0 +1,47 @@
+# Skills data for the homepage
+# Organize your technical skills by category
+
+languages:
+  - name: "JavaScript"
+    level: "Advanced"
+  - name: "TypeScript"
+    level: "Advanced"
+  - name: "Python"
+    level: "Intermediate"
+  - name: "Java"
+    level: "Intermediate"
+  - name: "Go"
+    level: "Beginner"
+
+frameworks:
+  - name: "React"
+    level: "Advanced"
+  - name: "Vue.js"
+    level: "Intermediate"
+  - name: "Node.js"
+    level: "Advanced"
+  - name: "Express"
+    level: "Advanced"
+  - name: "Next.js"
+    level: "Intermediate"
+  - name: "Spring Boot"
+    level: "Beginner"
+
+tools:
+  - name: "Git"
+    level: "Advanced"
+  - name: "Docker"
+    level: "Intermediate"
+  - name: "Kubernetes"
+    level: "Beginner"
+  - name: "AWS"
+    level: "Intermediate"
+  - name: "MongoDB"
+    level: "Advanced"
+  - name: "PostgreSQL"
+    level: "Intermediate"
+  - name: "Redis"
+    level: "Intermediate"
+
+# Level options: Advanced, Intermediate, Beginner
+# You can add more categories and skills as needed
