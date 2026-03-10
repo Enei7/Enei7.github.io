@@ -460,27 +460,6 @@ redirect_from:
   font-weight: 600;
 }
 
-/* ===== GitHub Stats ===== */
-.github-stats {
-  background: var(--card-bg);
-  border: 1px solid var(--border-light);
-  border-radius: var(--radius-md);
-  padding: 24px;
-  box-shadow: var(--shadow-soft);
-  text-align: center;
-}
-
-.github-stats-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: var(--radius-sm);
-  margin-bottom: 16px;
-}
-
-.github-stats-img:last-child {
-  margin-bottom: 0;
-}
-
 /* ===== Contact Section ===== */
 .contact-section {
   background: var(--card-bg);
@@ -700,14 +679,6 @@ redirect_from:
   </div>
 </div>
 
-<!-- GitHub Stats Section -->
-<div class="section-title" data-i18n="github_stats">GitHub Statistics</div>
-
-<div class="github-stats">
-  <img class="github-stats-img" src="https://github-readme-stats.vercel.app/api?username=Enei7&show_icons=true&theme=default&hide_border=true&bg_color=ffffff&title_color=2563eb&icon_color=2563eb&text_color=1e293b" alt="GitHub Stats" loading="lazy" />
-  <img class="github-stats-img" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Enei7&layout=compact&hide_border=true&bg_color=ffffff&title_color=2563eb&text_color=1e293b" alt="Top Languages" loading="lazy" />
-</div>
-
 <!-- Contact Section -->
 <span id="contact"></span>
 <div class="section-title" data-i18n="contact_title">Get in Touch</div>
@@ -754,7 +725,6 @@ const translations = {
     gdut_degree: "B.Eng. in Information Engineering (Excellence Class)",
     gdut_period: "Guangzhou, China | Sep. 2021 - Jun. 2025",
     gdut_desc: "Completed undergraduate training in information engineering and obtained CET-4 and CET-6 certification.",
-    github_stats: "GitHub Statistics",
     contact_intro: "I welcome conversations about research collaboration, internships, full-time roles, and technically challenging projects.",
     project1_name: "Selected Research Project",
     project1_desc: "Use this space to summarize the research problem, your core contribution, and the main outcome in two or three concise sentences.",
@@ -787,7 +757,6 @@ const translations = {
     gdut_degree: "信息工程 工学学士 (卓越工程师班)",
     gdut_period: "中国广州 | 2021.09 - 2025.06",
     gdut_desc: "完成信息工程专业本科学习，并通过大学英语四级和六级。",
-    github_stats: "GitHub 统计",
     contact_intro: "欢迎与我交流科研合作、实习机会、全职岗位，以及具有挑战性的技术项目。",
     project1_name: "代表性研究项目",
     project1_desc: "这里适合用两到三句话概括研究问题、你的核心贡献，以及项目最终取得的主要结果。",

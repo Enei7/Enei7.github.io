@@ -355,12 +355,12 @@ permalink: /Photos.html
 
 <div class="photo-nav">
   <a href="#masters">Master's (2025–Present)</a>
-  <a href="#undergraduates">Undergraduate's (2021-2025)</a>
+  <!-- <a href="#undergraduates">Undergraduate's (2021-2025)</a> -->
 </div>
 
 <span id="masters"></span>
 <div class="photo-section">
-  <h2>PhD (2025–Present)</h2>
+  <h2>Master's (2025–Present)</h2>
   <div class="photo-gallery">
 
     <div class="photo-item">
@@ -379,6 +379,13 @@ permalink: /Photos.html
 
     <div class="photo-item">
       <div class="photo-thumb">
+        <img src="/images/2510basketball.jpg" alt="EBA Game." data-caption="[2025-10] 229 in EBA Game.">
+      </div>
+      <div class="photo-caption">[2025-10] 229 in EBA Game.</div>
+    </div>
+
+    <div class="photo-item">
+      <div class="photo-thumb">
         <img src="/images/2507Dinner.jpg" alt="Laboratory Dinner" data-caption="[2025-07] Laboratory Dinner">
       </div>
       <div class="photo-caption">[2025-07] Laboratory Dinner</div>
@@ -391,19 +398,13 @@ permalink: /Photos.html
       <div class="photo-caption">[2025-07] Tanglang Mountain Hiking</div>
     </div>
 
-    <div class="photo-item">
-      <div class="photo-thumb">
-        <img src="/images/MIMO.jpg" alt="MIMO Course at Tsinghua Uni." data-caption="[2024-07] MIMO Course at Tsinghua Uni.">
-      </div>
-      <div class="photo-caption">[2024-07] MIMO Course at Tsinghua Uni.</div>
-    </div>
 
   </div>
 </div>
 
-<span id="undergraduates"></span>
+<!-- <span id="undergraduates"></span>
 <div class="photo-section">
-  <h2>Master's (2021–2025)</h2>
+  <h2>Undergraduate's (2021–2025)</h2>
   <div class="photo-gallery">
 
     <div class="photo-item">
@@ -421,7 +422,7 @@ permalink: /Photos.html
     </div>
 
   </div>
-</div>
+</div> -->
 
 
 <div id="lightbox">
