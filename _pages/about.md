@@ -543,18 +543,18 @@ redirect_from:
 
 <!-- Hero Section -->
 <div class="hero-card">
-  <div class="hero-subtitle" data-i18n="bio">Research Interests: VLM, LLM, Motion Planning</div>
+  <div class="hero-subtitle" data-i18n="bio">Research Interests: Vision-Language Models, Large Language Models, and Motion Planning</div>
 
   <h1 class="hero-title">
-    <span data-i18n="greeting">Hello, I am</span> <strong>Huang Zhenwei (黄圳炜)</strong>
+    <span data-i18n="greeting">Hello, I'm</span> <strong>Huang Zhenwei (黄圳炜)</strong>
   </h1>
 
   <p data-i18n="intro">
-    I am currently a Master's student passionate about AI research, focusing on Vision-Language Models, Large Language Models, and Motion Planning.
+    I am a Master's student working at the intersection of AI and robotics, with research interests in vision-language models, large language models, and motion planning. I welcome research collaboration, technical discussion, and internship or full-time opportunities.
   </p>
 
   <p>
-    <span data-i18n="contact_prompt">If you are interested in collaboration, please contact me via email:</span>
+    <span data-i18n="contact_prompt">For research collaboration, internships, or other opportunities, feel free to reach out at:</span>
     <span class="hero-email">12532510@mail.sustech.edu.cn</span>
   </p>
 </div>
@@ -575,13 +575,13 @@ redirect_from:
     <div class="experience-title"><span data-i18n="sustech">Southern University of Science and Technology (SUSTech)</span></div>
     <div class="experience-subtitle"><span data-i18n="sustech_degree">M.Eng. in Electronic Science and Technology</span></div>
     <div class="experience-period"><span data-i18n="sustech_period">Shenzhen, China | Sep. 2025 - Present (expected Jun. 2028)</span></div>
-    <p class="experience-desc"><span data-i18n="sustech_desc">Admitted through Postgraduate Recommendation. Research focus on AI and Robotics.</span></p>
+    <p class="experience-desc"><span data-i18n="sustech_desc">Admitted through graduate recommendation. Current research interests center on AI and robotics.</span></p>
   </div>
   <div class="experience-item">
     <div class="experience-title"><span data-i18n="gdut">Guangdong University of Technology (GDUT)</span></div>
     <div class="experience-subtitle"><span data-i18n="gdut_degree">B.Eng. in Information Engineering (Excellence Class)</span></div>
     <div class="experience-period"><span data-i18n="gdut_period">Guangzhou, China | Sep. 2021 - Jun. 2025</span></div>
-    <p class="experience-desc"><span data-i18n="gdut_desc">Undergraduate studies. CET & CET-6 Certified.</span></p>
+    <p class="experience-desc"><span data-i18n="gdut_desc">Completed undergraduate training in information engineering and obtained CET-4 and CET-6 certification.</span></p>
   </div>
 </div>
 
@@ -591,8 +591,8 @@ redirect_from:
 
 <div class="projects-grid">
   <div class="project-card">
-    <h3 data-i18n="project1_name">Project One</h3>
-    <p data-i18n="project1_desc">A brief description of the project. What it does and the problem it solves.</p>
+    <h3 data-i18n="project1_name">Selected Research Project</h3>
+    <p data-i18n="project1_desc">Use this space to summarize the research problem, your core contribution, and the main outcome in two or three concise sentences.</p>
     <div class="project-tech">
       <span class="project-tech-tag">PyTorch</span>
       <span class="project-tech-tag">Python</span>
@@ -603,8 +603,8 @@ redirect_from:
   </div>
 
   <div class="project-card">
-    <h3 data-i18n="project2_name">Project Two</h3>
-    <p data-i18n="project2_desc">Another project description. Highlight key features and technologies used.</p>
+    <h3 data-i18n="project2_name">Selected Engineering Project</h3>
+    <p data-i18n="project2_desc">A strong project summary should explain the system goal, the methods you used, and the practical value or deployment context.</p>
     <div class="project-tech">
       <span class="project-tech-tag">ROS</span>
       <span class="project-tech-tag">C++</span>
@@ -675,10 +675,10 @@ redirect_from:
 
 <!-- Contact Section -->
 <span id="contact"></span>
-<div class="section-title" data-i18n="contact">Contact Me</div>
+<div class="section-title" data-i18n="contact_title">Get in Touch</div>
 
 <div class="contact-section">
-  <p data-i18n="contact_intro">I'm always open to discussing new opportunities, interesting projects, or potential collaborations.</p>
+  <p data-i18n="contact_intro">I welcome conversations about research collaboration, internships, full-time roles, and technically challenging projects.</p>
 
   <div class="contact-links">
     <a class="contact-btn primary" href="mailto:12532510@mail.sustech.edu.cn">
@@ -694,13 +694,14 @@ redirect_from:
 <script>
 const translations = {
   en: {
-    bio: "Research Interests: VLM, LLM, Motion Planning",
-    greeting: "Hello, I am",
-    intro: "I am currently a Master's student passionate about AI research, focusing on Vision-Language Models, Large Language Models, and Motion Planning. I welcome academic collaboration and discussion. If you have internship or job opportunities, please feel free to contact me.",
-    contact_prompt: "If you are interested in collaboration, please contact me via email:",
+    bio: "Research Interests: Vision-Language Models, Large Language Models, and Motion Planning",
+    greeting: "Hello, I'm",
+    intro: "I am a Master's student working at the intersection of AI and robotics, with research interests in vision-language models, large language models, and motion planning. I welcome research collaboration, technical discussion, and internship or full-time opportunities.",
+    contact_prompt: "For research collaboration, internships, or other opportunities, feel free to reach out at:",
     email_me: "Email Me",
     projects: "Projects",
     contact: "Contact",
+    contact_title: "Get in Touch",
     photos: "Photos",
     research_interests: "Research Interests",
     skills: "Technical Skills",
@@ -713,26 +714,27 @@ const translations = {
     sustech: "Southern University of Science and Technology (SUSTech)",
     sustech_degree: "M.Eng. in Electronic Science and Technology",
     sustech_period: "Shenzhen, China | Sep. 2025 - Present (expected Jun. 2028)",
-    sustech_desc: "Admitted through Postgraduate Recommendation. Research focus on AI and Robotics.",
+    sustech_desc: "Admitted through graduate recommendation. Current research interests center on AI and robotics.",
     gdut: "Guangdong University of Technology (GDUT)",
     gdut_degree: "B.Eng. in Information Engineering (Excellence Class)",
     gdut_period: "Guangzhou, China | Sep. 2021 - Jun. 2025",
-    gdut_desc: "Undergraduate studies. CET & CET-6 Certified.",
+    gdut_desc: "Completed undergraduate training in information engineering and obtained CET-4 and CET-6 certification.",
     github_stats: "GitHub Statistics",
-    contact_intro: "I'm always open to discussing new opportunities, interesting projects, or potential collaborations.",
-    project1_name: "Project One",
-    project1_desc: "A brief description of the project. What it does and the problem it solves.",
-    project2_name: "Project Two",
-    project2_desc: "Another project description. Highlight key features and technologies used."
+    contact_intro: "I welcome conversations about research collaboration, internships, full-time roles, and technically challenging projects.",
+    project1_name: "Selected Research Project",
+    project1_desc: "Use this space to summarize the research problem, your core contribution, and the main outcome in two or three concise sentences.",
+    project2_name: "Selected Engineering Project",
+    project2_desc: "A strong project summary should explain the system goal, the methods you used, and the practical value or deployment context."
   },
   zh: {
-    bio: "研究兴趣：VLM, LLM, 运动规划",
+    bio: "研究方向：视觉语言模型、大语言模型与运动规划",
     greeting: "你好，我是",
-    intro: "我是一名在读硕士研究生，专注于人工智能研究，研究方向包括视觉语言模型、大语言模型和运动规划。欢迎学术合作与交流，如有实习或工作机会，欢迎与我联系。",
-    contact_prompt: "如果您对合作感兴趣，请通过邮件联系我：",
+    intro: "我是一名聚焦人工智能与机器人交叉方向的硕士研究生，当前研究兴趣主要包括视觉语言模型、大语言模型与运动规划。欢迎学术合作、技术交流，以及实习或全职机会联系我。",
+    contact_prompt: "如果您对科研合作、实习或其他机会感兴趣，欢迎通过邮箱联系我：",
     email_me: "发送邮件",
     projects: "项目",
     contact: "联系",
+    contact_title: "联系方式",
     photos: "照片",
     research_interests: "研究兴趣",
     skills: "技术技能",
@@ -745,17 +747,17 @@ const translations = {
     sustech: "南方科技大学 (SUSTech)",
     sustech_degree: "电子科学与技术 工学硕士",
     sustech_period: "中国深圳 | 2025.09 - 至今 (预计2028.06毕业)",
-    sustech_desc: "保研入学。研究方向：人工智能与机器人。",
+    sustech_desc: "通过推免进入南方科技大学攻读硕士学位，当前研究聚焦于人工智能与机器人。",
     gdut: "广东工业大学 (GDUT)",
-    gdut_degree: "信息工程 工学学士 (卓越班)",
+    gdut_degree: "信息工程 工学学士 (卓越工程师班)",
     gdut_period: "中国广州 | 2021.09 - 2025.06",
-    gdut_desc: "本科学习。通过大学英语四级和六级。",
+    gdut_desc: "完成信息工程专业本科学习，并通过大学英语四级和六级。",
     github_stats: "GitHub 统计",
-    contact_intro: "欢迎与我讨论新的机会、有趣的项目或潜在的合作。",
-    project1_name: "项目一",
-    project1_desc: "项目简介。描述项目功能和解决的问题。",
-    project2_name: "项目二",
-    project2_desc: "另一个项目描述。突出关键特性和使用的技术。"
+    contact_intro: "欢迎与我交流科研合作、实习机会、全职岗位，以及具有挑战性的技术项目。",
+    project1_name: "代表性研究项目",
+    project1_desc: "这里适合用两到三句话概括研究问题、你的核心贡献，以及项目最终取得的主要结果。",
+    project2_name: "代表性工程项目",
+    project2_desc: "建议重点说明系统目标、采用的方法，以及项目在实际场景中的价值或落地情况。"
   }
 };
 
