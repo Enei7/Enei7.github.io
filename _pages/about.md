@@ -43,19 +43,23 @@ redirect_from:
   text-decoration: underline;
 }
 
-/* ===== Language Toggle in Navbar ===== */
-.nav-lang-toggle {
+/* ===== Language Toggle ===== */
+.lang-toggle {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  z-index: 1000;
   display: flex;
-  gap: 2px;
+  gap: 4px;
   background: #fff;
   border-radius: 999px;
-  padding: 2px;
-  margin-left: 16px;
+  padding: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   border: 1px solid var(--border-light);
 }
 
-.nav-lang-btn {
-  padding: 6px 12px;
+.lang-btn {
+  padding: 8px 16px;
   border-radius: 999px;
   border: none;
   background: transparent;
@@ -63,14 +67,14 @@ redirect_from:
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
 }
 
-.nav-lang-btn:hover {
+.lang-btn:hover {
   color: var(--main-color);
 }
 
-.nav-lang-btn.active {
+.lang-btn.active {
   background: var(--main-color);
   color: #fff;
 }
@@ -530,6 +534,12 @@ redirect_from:
   }
 }
 </style>
+
+<!-- Language Toggle Button -->
+<div class="lang-toggle">
+  <button class="lang-btn active" data-lang="en" onclick="switchLanguage('en')">EN</button>
+  <button class="lang-btn" data-lang="zh" onclick="switchLanguage('zh')">中文</button>
+</div>
 
 <!-- Hero Section -->
 <div class="hero-card">
