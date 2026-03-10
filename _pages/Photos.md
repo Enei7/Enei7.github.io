@@ -337,14 +337,13 @@ permalink: /Photos.html
 </div>
 
 <div class="photo-nav">
-  <a href="#phd">PhD (2024–Present)</a>
-  <a href="#masters">Master's (2021–2024)</a>
-  <a href="#personal">Personal</a>
+  <a href="#masters">Master's (2025–Present)</a>
+  <a href="#undergraduates">Undergraduate's (2021-2025)</a>
 </div>
 
-<span id="phd"></span>
+<span id="masters"></span>
 <div class="photo-section">
-  <h2>PhD (2024–Present)</h2>
+  <h2>PhD (2025–Present)</h2>
   <div class="photo-gallery">
 
     <div class="photo-item">
@@ -373,27 +372,6 @@ permalink: /Photos.html
         <img src="/images/2507TanglangMou.jpg" alt="Tanglang Mountain Hiking" data-caption="[2025-07] Tanglang Mountain Hiking">
       </div>
       <div class="photo-caption">[2025-07] Tanglang Mountain Hiking</div>
-    </div>
-
-    <div class="photo-item">
-      <div class="photo-thumb">
-        <img src="/images/2503YangtaiMoun2.jpg" alt="Yangtai Mountain Hiking" data-caption="[2025-03] Yangtai Mountain Hiking">
-      </div>
-      <div class="photo-caption">[2025-03] Yangtai Mountain Hiking</div>
-    </div>
-
-    <div class="photo-item">
-      <div class="photo-thumb">
-        <img src="/images/DongxiCong1.jpg" alt="Dongxiyong Hiking" data-caption="[2024-08] Dongxiyong Hiking">
-      </div>
-      <div class="photo-caption">[2024-08] Dongxiyong Hiking</div>
-    </div>
-
-    <div class="photo-item">
-      <div class="photo-thumb">
-        <img src="/images/2407TanglangMou.jpg" alt="Tanglang Mountain Hiking" data-caption="[2024-07] Tanglang Mountain Hiking">
-      </div>
-      <div class="photo-caption">[2024-07] Tanglang Mountain Hiking</div>
     </div>
 
     <div class="photo-item">

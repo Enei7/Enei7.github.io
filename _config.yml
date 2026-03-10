@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Huang Zhenwei (黄镇伟)"
+title                    : "Huang Zhenwei (黄圳炜)"
 title_separator          : "-"
 description              : "Personal Homepage - Research Interests: VLM, LLM, Motion Planning"
 url                      : "https://Enei7.github.io"
@@ -28,7 +28,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Huang Zhenwei (黄镇伟)"
+  name             : "Huang Zhenwei (黄圳炜)"
   avatar           : "images/profile.jpg"
   bio              : "Research Interests: VLM, LLM, Motion Planning"
   bio_zh           : "研究兴趣：VLM, LLM, 运动规划"
