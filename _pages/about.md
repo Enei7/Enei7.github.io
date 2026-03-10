@@ -546,11 +546,11 @@ redirect_from:
   <div class="hero-subtitle" data-i18n="bio">Research Interests: VLM, LLM, Motion Planning</div>
 
   <h1 class="hero-title">
-    <span data-i18n="greeting">Hello, I am</span> <strong>Huang Zhenwei (黄镇伟)</strong>
+    <span data-i18n="greeting">Hello, I am</span> <strong>Huang Zhenwei (黄圳炜)</strong>
   </h1>
 
   <p data-i18n="intro">
-    I am passionate about AI research, focusing on Vision-Language Models, Large Language Models, and Motion Planning. I am currently seeking research opportunities.
+    I am currently a Master's student passionate about AI research, focusing on Vision-Language Models, Large Language Models, and Motion Planning.
   </p>
 
   <p>
@@ -573,9 +573,15 @@ redirect_from:
 <div class="experience-timeline">
   <div class="experience-item">
     <div class="experience-title">Southern University of Science and Technology (SUSTech)</div>
-    <div class="experience-subtitle" data-i18n="degree">Bachelor's Degree</div>
-    <div class="experience-period">Shenzhen, China | 2020 - 2024</div>
-    <p class="experience-desc" data-i18n="edu_desc">Research focus on AI and Robotics.</p>
+    <div class="experience-subtitle">M.Eng. in Electronic Science and Technology</div>
+    <div class="experience-period">Shenzhen, China | Sep. 2025 - Present (expected Jun. 2028)</div>
+    <p class="experience-desc">Admitted through Postgraduate Recommendation. Research focus on AI and Robotics.</p>
+  </div>
+  <div class="experience-item">
+    <div class="experience-title">Guangdong University of Technology (GDUT)</div>
+    <div class="experience-subtitle">B.Eng. in Information Engineering (Excellence Class)</div>
+    <div class="experience-period">Guangzhou, China | Sep. 2021 - Jun. 2025</div>
+    <p class="experience-desc">Undergraduate studies. CET-6 Certified.</p>
   </div>
 </div>
 
@@ -690,7 +696,7 @@ const translations = {
   en: {
     bio: "Research Interests: VLM, LLM, Motion Planning",
     greeting: "Hello, I am",
-    intro: "I am passionate about AI research, focusing on Vision-Language Models, Large Language Models, and Motion Planning. I am currently seeking research opportunities.",
+    intro: "I am currently a Master's student passionate about AI research, focusing on Vision-Language Models, Large Language Models, and Motion Planning. I welcome academic collaboration and discussion. If you have internship or job opportunities, please feel free to contact me.",
     contact_prompt: "If you are interested in collaboration, please contact me via email:",
     email_me: "Email Me",
     projects: "Projects",
@@ -714,7 +720,7 @@ const translations = {
   zh: {
     bio: "研究兴趣：VLM, LLM, 运动规划",
     greeting: "你好，我是",
-    intro: "我专注于人工智能研究，研究方向包括视觉语言模型、大语言模型和运动规划。目前正在寻找研究机会。",
+    intro: "我是一名在读硕士研究生，专注于人工智能研究，研究方向包括视觉语言模型、大语言模型和运动规划。欢迎学术合作与交流，如有实习或工作机会，欢迎与我联系。",
     contact_prompt: "如果您对合作感兴趣，请通过邮件联系我：",
     email_me: "发送邮件",
     projects: "项目",
