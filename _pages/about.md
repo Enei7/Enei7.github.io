@@ -567,6 +567,48 @@ redirect_from:
   <a class="home-btn" href="/Photos.html" data-i18n="photos">Photos</a>
 </div>
 
+<!-- Education Section -->
+<div class="section-title" data-i18n="education">Education</div>
+
+<div class="experience-timeline">
+  <div class="experience-item">
+    <div class="experience-title">Southern University of Science and Technology (SUSTech)</div>
+    <div class="experience-subtitle" data-i18n="degree">Bachelor's Degree</div>
+    <div class="experience-period">Shenzhen, China | 2020 - 2024</div>
+    <p class="experience-desc" data-i18n="edu_desc">Research focus on AI and Robotics.</p>
+  </div>
+</div>
+
+<!-- Projects Section -->
+<span id="projects"></span>
+<div class="section-title" data-i18n="projects">Projects</div>
+
+<div class="projects-grid">
+  <div class="project-card">
+    <h3 data-i18n="project1_name">Project One</h3>
+    <p data-i18n="project1_desc">A brief description of the project. What it does and the problem it solves.</p>
+    <div class="project-tech">
+      <span class="project-tech-tag">PyTorch</span>
+      <span class="project-tech-tag">Python</span>
+    </div>
+    <div class="project-links">
+      <a href="#" class="project-link" target="_blank">GitHub</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <h3 data-i18n="project2_name">Project Two</h3>
+    <p data-i18n="project2_desc">Another project description. Highlight key features and technologies used.</p>
+    <div class="project-tech">
+      <span class="project-tech-tag">ROS</span>
+      <span class="project-tech-tag">C++</span>
+    </div>
+    <div class="project-links">
+      <a href="#" class="project-link" target="_blank">GitHub</a>
+    </div>
+  </div>
+</div>
+
 <!-- Research Interests -->
 <div class="section-title" data-i18n="research_interests">Research Interests</div>
 
@@ -614,48 +656,6 @@ redirect_from:
       <span class="skill-tag">CUDA</span>
       <span class="skill-tag">AWS</span>
     </div>
-  </div>
-</div>
-
-<!-- Projects Section -->
-<span id="projects"></span>
-<div class="section-title" data-i18n="projects">Projects</div>
-
-<div class="projects-grid">
-  <div class="project-card">
-    <h3 data-i18n="project1_name">Project One</h3>
-    <p data-i18n="project1_desc">A brief description of the project. What it does and the problem it solves.</p>
-    <div class="project-tech">
-      <span class="project-tech-tag">PyTorch</span>
-      <span class="project-tech-tag">Python</span>
-    </div>
-    <div class="project-links">
-      <a href="#" class="project-link" target="_blank">GitHub</a>
-    </div>
-  </div>
-
-  <div class="project-card">
-    <h3 data-i18n="project2_name">Project Two</h3>
-    <p data-i18n="project2_desc">Another project description. Highlight key features and technologies used.</p>
-    <div class="project-tech">
-      <span class="project-tech-tag">ROS</span>
-      <span class="project-tech-tag">C++</span>
-    </div>
-    <div class="project-links">
-      <a href="#" class="project-link" target="_blank">GitHub</a>
-    </div>
-  </div>
-</div>
-
-<!-- Education Section -->
-<div class="section-title" data-i18n="education">Education</div>
-
-<div class="experience-timeline">
-  <div class="experience-item">
-    <div class="experience-title">Southern University of Science and Technology (SUSTech)</div>
-    <div class="experience-subtitle" data-i18n="degree">Bachelor's Degree</div>
-    <div class="experience-period">Shenzhen, China | 2020 - 2024</div>
-    <p class="experience-desc" data-i18n="edu_desc">Research focus on AI and Robotics.</p>
   </div>
 </div>
 
