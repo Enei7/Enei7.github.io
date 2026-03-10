@@ -572,16 +572,16 @@ redirect_from:
 
 <div class="experience-timeline">
   <div class="experience-item">
-    <div class="experience-title">Southern University of Science and Technology (SUSTech)</div>
-    <div class="experience-subtitle">M.Eng. in Electronic Science and Technology</div>
-    <div class="experience-period">Shenzhen, China | Sep. 2025 - Present (expected Jun. 2028)</div>
-    <p class="experience-desc">Admitted through Postgraduate Recommendation. Research focus on AI and Robotics.</p>
+    <div class="experience-title"><span data-i18n="sustech">Southern University of Science and Technology (SUSTech)</span></div>
+    <div class="experience-subtitle"><span data-i18n="sustech_degree">M.Eng. in Electronic Science and Technology</span></div>
+    <div class="experience-period"><span data-i18n="sustech_period">Shenzhen, China | Sep. 2025 - Present (expected Jun. 2028)</span></div>
+    <p class="experience-desc"><span data-i18n="sustech_desc">Admitted through Postgraduate Recommendation. Research focus on AI and Robotics.</span></p>
   </div>
   <div class="experience-item">
-    <div class="experience-title">Guangdong University of Technology (GDUT)</div>
-    <div class="experience-subtitle">B.Eng. in Information Engineering (Excellence Class)</div>
-    <div class="experience-period">Guangzhou, China | Sep. 2021 - Jun. 2025</div>
-    <p class="experience-desc">Undergraduate studies. CET-6 Certified.</p>
+    <div class="experience-title"><span data-i18n="gdut">Guangdong University of Technology (GDUT)</span></div>
+    <div class="experience-subtitle"><span data-i18n="gdut_degree">B.Eng. in Information Engineering (Excellence Class)</span></div>
+    <div class="experience-period"><span data-i18n="gdut_period">Guangzhou, China | Sep. 2021 - Jun. 2025</span></div>
+    <p class="experience-desc"><span data-i18n="gdut_desc">Undergraduate studies. CET & CET-6 Certified.</span></p>
   </div>
 </div>
 
@@ -710,6 +710,14 @@ const translations = {
     education: "Education",
     degree: "Bachelor's Degree",
     edu_desc: "Research focus on AI and Robotics.",
+    sustech: "Southern University of Science and Technology (SUSTech)",
+    sustech_degree: "M.Eng. in Electronic Science and Technology",
+    sustech_period: "Shenzhen, China | Sep. 2025 - Present (expected Jun. 2028)",
+    sustech_desc: "Admitted through Postgraduate Recommendation. Research focus on AI and Robotics.",
+    gdut: "Guangdong University of Technology (GDUT)",
+    gdut_degree: "B.Eng. in Information Engineering (Excellence Class)",
+    gdut_period: "Guangzhou, China | Sep. 2021 - Jun. 2025",
+    gdut_desc: "Undergraduate studies. CET & CET-6 Certified.",
     github_stats: "GitHub Statistics",
     contact_intro: "I'm always open to discussing new opportunities, interesting projects, or potential collaborations.",
     project1_name: "Project One",
@@ -734,6 +742,14 @@ const translations = {
     education: "教育背景",
     degree: "学士学位",
     edu_desc: "研究方向为人工智能与机器人。",
+    sustech: "南方科技大学 (SUSTech)",
+    sustech_degree: "电子科学与技术 工学硕士",
+    sustech_period: "中国深圳 | 2025.09 - 至今 (预计2028.06毕业)",
+    sustech_desc: "保研入学。研究方向：人工智能与机器人。",
+    gdut: "广东工业大学 (GDUT)",
+    gdut_degree: "信息工程 工学学士 (卓越班)",
+    gdut_period: "中国广州 | 2021.09 - 2025.06",
+    gdut_desc: "本科学习。通过大学英语四级和六级。",
     github_stats: "GitHub 统计",
     contact_intro: "欢迎与我讨论新的机会、有趣的项目或潜在的合作。",
     project1_name: "项目一",
