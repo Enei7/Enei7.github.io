@@ -4,30 +4,38 @@ permalink: /Photos.html
 ---
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap');
+
 :root{
-  --main-color:#7F6000;
-  --main-dark:#5f4700;
-  --soft-bg:#faf8f3;
+  --main-color:#2563eb;
+  --main-dark:#1d4ed8;
+  --main-light:#3b82f6;
+  --soft-bg:#f8fafc;
   --card-bg:#ffffff;
-  --hero-bg-start:#fffdf8;
-  --hero-bg-end:#f7f1e6;
-  --border-light:#ece6d8;
-  --border-mid:#e4d7b7;
-  --text-main:#222222;
-  --text-soft:#666666;
-  --shadow-soft:0 8px 24px rgba(0,0,0,0.06);
-  --shadow-hover:0 18px 38px rgba(0,0,0,0.16);
+  --hero-bg-start:#eff6ff;
+  --hero-bg-end:#dbeafe;
+  --border-light:#e2e8f0;
+  --border-mid:#cbd5e1;
+  --text-main:#1e293b;
+  --text-soft:#475569;
+  --shadow-soft:0 8px 24px rgba(37,99,235,0.08);
+  --shadow-hover:0 18px 38px rgba(37,99,235,0.14);
+  --font-sans:"Plus Jakarta Sans", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --font-heading:"Plus Jakarta Sans", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 
 /* ===== overall ===== */
 .page__content{
-  font-size:17px;
-  line-height:1.8;
+  font-family:var(--font-sans);
+  font-size:16.5px;
+  line-height:1.9;
+  font-weight:500;
+  letter-spacing:0.01em;
   color:var(--text-main);
 }
 
 .page__content a{
-  color:#1f5fae;
+  color:var(--main-color);
   text-decoration:none;
 }
 
@@ -41,8 +49,8 @@ permalink: /Photos.html
   overflow:hidden;
   background:linear-gradient(135deg,var(--hero-bg-start) 0%,var(--hero-bg-end) 100%);
   border:1px solid var(--border-light);
-  border-radius:24px;
-  padding:28px 32px;
+  border-radius:26px;
+  padding:30px 34px;
   margin-bottom:22px;
   box-shadow:var(--shadow-soft);
 }
@@ -55,19 +63,23 @@ permalink: /Photos.html
   width:210px;
   height:210px;
   border-radius:50%;
-  background:radial-gradient(circle, rgba(184,138,0,0.10) 0%, rgba(184,138,0,0.03) 55%, rgba(184,138,0,0) 72%);
+  background:radial-gradient(circle, rgba(37,99,235,0.12) 0%, rgba(37,99,235,0.03) 55%, rgba(37,99,235,0) 72%);
   pointer-events:none;
 }
 
 .photo-hero h1{
   margin:0 0 10px 0;
-  font-size:2rem;
+  font-family:var(--font-heading);
+  font-size:clamp(2rem, 3.2vw, 2.7rem);
   font-weight:800;
+  letter-spacing:-0.03em;
   color:var(--text-main);
 }
 
 .photo-hero p{
   margin:0;
+  font-size:1rem;
+  line-height:1.85;
   color:var(--text-soft);
 }
 
@@ -83,29 +95,32 @@ permalink: /Photos.html
   display:inline-flex;
   align-items:center;
   justify-content:center;
+  font-family:var(--font-sans);
   padding:8px 16px;
   border-radius:999px;
   background:#fff;
   border:1px solid var(--border-mid);
   color:var(--main-color) !important;
   font-weight:700;
+  font-size:0.92rem;
+  letter-spacing:0.01em;
   text-decoration:none !important;
   box-shadow:0 3px 10px rgba(0,0,0,0.03);
   transition:all 0.22s ease;
 }
 
 .photo-nav a:hover{
-  background:#fff7dd;
-  border-color:#d8c38d;
+  background:#eff6ff;
+  border-color:var(--main-light);
   transform:translateY(-2px);
-  box-shadow:0 10px 20px rgba(0,0,0,0.08);
+  box-shadow:0 10px 20px rgba(37,99,235,0.12);
 }
 
 /* ===== section ===== */
 .photo-section{
   background:var(--card-bg);
   border:1px solid var(--border-light);
-  border-radius:22px;
+  border-radius:18px;
   padding:22px 22px 18px 22px;
   margin-bottom:28px;
   box-shadow:var(--shadow-soft);
@@ -113,11 +128,13 @@ permalink: /Photos.html
 
 .photo-section h2{
   margin:0 0 18px 0;
+  font-family:var(--font-heading);
   font-size:1.36rem;
   font-weight:800;
+  letter-spacing:-0.02em;
   color:var(--text-main);
   padding-bottom:10px;
-  border-bottom:1px solid #efe8d9;
+  border-bottom:1px solid var(--border-light);
 }
 
 /* ===== gallery: force 3 columns on desktop ===== */
@@ -133,11 +150,11 @@ permalink: /Photos.html
   position:relative;
   display:flex;
   flex-direction:column;
-  background:#fffdfa;
-  border:1px solid #f0e8d7;
+  background:#ffffff;
+  border:1px solid var(--border-light);
   border-radius:18px;
   padding:12px 12px 14px 12px;
-  box-shadow:0 6px 16px rgba(0,0,0,0.04);
+  box-shadow:0 6px 16px rgba(37,99,235,0.05);
   transition:transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
   overflow:visible; /* 允许内部图片放大跳出边框 */
   z-index:1;
@@ -145,8 +162,8 @@ permalink: /Photos.html
 
 .photo-item:hover{
   transform:translateY(-3px);
-  box-shadow:0 12px 28px rgba(0,0,0,0.08);
-  border-color:#e6d5ab;
+  box-shadow:var(--shadow-hover);
+  border-color:#93c5fd;
   z-index:100; /* 悬停时，将当前格子的层级提到最高，避免被旁边图片遮挡 */
 }
 
@@ -207,9 +224,9 @@ permalink: /Photos.html
 .photo-caption{
   margin-top:12px;
   text-align:center;
-  font-size:14px;
+  font-size:0.88rem;
   color:var(--text-soft);
-  line-height:1.45;
+  line-height:1.55;
   min-height:40px;
   display:flex;
   align-items:center;
@@ -220,7 +237,7 @@ permalink: /Photos.html
 
 .photo-item:hover .photo-caption{
   transform:translateY(-1px);
-  color:#4d4d4d;
+  color:var(--text-main);
 }
 
 /* ===== lightbox (保持不变) ===== */
@@ -384,9 +401,9 @@ permalink: /Photos.html
   </div>
 </div>
 
-<span id="masters"></span>
+<span id="undergraduates"></span>
 <div class="photo-section">
-  <h2>Master's (2021–2024)</h2>
+  <h2>Master's (2021–2025)</h2>
   <div class="photo-gallery">
 
     <div class="photo-item">
@@ -406,27 +423,6 @@ permalink: /Photos.html
   </div>
 </div>
 
-<span id="personal"></span>
-<div class="photo-section">
-  <h2>Personal</h2>
-  <div class="photo-gallery">
-
-    <div class="photo-item">
-      <div class="photo-thumb">
-        <img src="/images/Yantai.jpg" alt="Yantai Travel" data-caption="[2026-02] Yantai Travel">
-      </div>
-      <div class="photo-caption">[2026-02] Yantai Travel</div>
-    </div>
-
-    <div class="photo-item">
-      <div class="photo-thumb">
-        <img src="/images/2401eimen.jpg" alt="Xiamen Travel" data-caption="[2024-01] Xiamen Travel">
-      </div>
-      <div class="photo-caption">[2024-01] Xiamen Travel</div>
-    </div>
-
-  </div>
-</div>
 
 <div id="lightbox">
   <span id="lightbox-close">&times;</span>

@@ -9,6 +9,8 @@ redirect_from:
 ---
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap');
+
 :root {
   --main-color: #2563eb;
   --main-dark: #1d4ed8;
@@ -26,11 +28,20 @@ redirect_from:
   --radius-lg: 22px;
   --radius-md: 18px;
   --radius-sm: 14px;
+  --font-sans: "Plus Jakarta Sans", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --font-heading: "Plus Jakarta Sans", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+.page {
+  font-family: var(--font-sans);
 }
 
 .page__content {
-  font-size: 17px;
-  line-height: 1.85;
+  font-family: var(--font-sans);
+  font-size: 16.5px;
+  line-height: 1.9;
+  font-weight: 500;
+  letter-spacing: 0.01em;
   color: var(--text-main);
 }
 
@@ -59,15 +70,17 @@ redirect_from:
 }
 
 .lang-btn {
+  font-family: var(--font-sans);
   padding: 8px 16px;
   border-radius: 999px;
   border: none;
   background: transparent;
   color: var(--text-soft);
-  font-weight: 600;
+  font-weight: 700;
   cursor: pointer;
   transition: all 0.2s ease;
-  font-size: 0.9rem;
+  font-size: 0.88rem;
+  letter-spacing: 0.01em;
 }
 
 .lang-btn:hover {
@@ -105,9 +118,11 @@ redirect_from:
 
 .hero-title {
   margin: 0 0 10px 0;
-  font-size: 2.2rem;
+  font-family: var(--font-heading);
+  font-size: clamp(2.3rem, 4vw, 3.15rem);
   font-weight: 800;
-  line-height: 1.25;
+  line-height: 1.15;
+  letter-spacing: -0.035em;
   color: var(--text-main);
 }
 
@@ -119,13 +134,15 @@ redirect_from:
   background: #dbeafe;
   border: 1px solid #93c5fd;
   color: var(--main-dark);
-  font-size: 0.96rem;
+  font-size: 0.85rem;
   font-weight: 700;
+  letter-spacing: 0.03em;
 }
 
 .hero-card p {
   margin: 0 0 14px 0;
-  font-size: 1.05rem;
+  font-size: 1.02rem;
+  line-height: 1.95;
   color: var(--text-main);
 }
 
@@ -146,12 +163,15 @@ redirect_from:
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  font-family: var(--font-sans);
   padding: 10px 18px;
   border-radius: 999px;
   border: 1px solid var(--border-mid);
   background: #fff;
   color: var(--main-color) !important;
   font-weight: 700;
+  font-size: 0.92rem;
+  letter-spacing: 0.01em;
   text-decoration: none !important;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.03);
   transition: all 0.22s ease;
@@ -181,8 +201,10 @@ redirect_from:
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 1.55rem;
+  font-family: var(--font-heading);
+  font-size: 1.45rem;
   font-weight: 800;
+  letter-spacing: -0.02em;
   color: var(--text-main);
   margin: 36px 0 18px 0;
   padding-left: 14px;
@@ -207,8 +229,9 @@ redirect_from:
 }
 
 .skill-category-title {
-  font-size: 1rem;
+  font-size: 0.98rem;
   font-weight: 700;
+  letter-spacing: 0.01em;
   color: var(--main-color);
   margin-bottom: 12px;
 }
@@ -227,8 +250,9 @@ redirect_from:
   background: #eff6ff;
   border: 1px solid #bfdbfe;
   color: var(--main-dark);
-  font-size: 0.9rem;
+  font-size: 0.88rem;
   font-weight: 600;
+  letter-spacing: 0.01em;
   transition: all 0.2s ease;
 }
 
@@ -261,15 +285,18 @@ redirect_from:
 
 .project-card h3 {
   margin: 0 0 10px 0;
+  font-family: var(--font-heading);
   color: var(--main-color);
-  font-size: 1.15rem;
-  line-height: 1.4;
+  font-size: 1.18rem;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
 }
 
 .project-card p {
   margin: 0 0 14px 0;
   color: var(--text-soft);
-  font-size: 0.95rem;
+  font-size: 0.94rem;
+  line-height: 1.8;
 }
 
 .project-tech {
@@ -285,7 +312,7 @@ redirect_from:
   background: #f1f5f9;
   border: 1px solid #e2e8f0;
   color: var(--text-soft);
-  font-size: 0.82rem;
+  font-size: 0.8rem;
   font-weight: 600;
 }
 
@@ -297,12 +324,14 @@ redirect_from:
 .project-link {
   display: inline-flex;
   align-items: center;
+  font-family: var(--font-sans);
   padding: 6px 12px;
   border-radius: 999px;
   background: var(--main-color);
   color: #fff !important;
-  font-size: 0.85rem;
+  font-size: 0.84rem;
   font-weight: 600;
+  letter-spacing: 0.01em;
   text-decoration: none !important;
   transition: all 0.2s ease;
 }
@@ -352,28 +381,31 @@ redirect_from:
 }
 
 .experience-title {
-  font-size: 1.1rem;
+  font-family: var(--font-heading);
+  font-size: 1.08rem;
   font-weight: 700;
+  letter-spacing: -0.01em;
   color: var(--text-main);
   margin-bottom: 4px;
 }
 
 .experience-subtitle {
-  font-size: 0.95rem;
+  font-size: 0.96rem;
   color: var(--main-color);
   font-weight: 600;
   margin-bottom: 4px;
 }
 
 .experience-period {
-  font-size: 0.9rem;
+  font-size: 0.88rem;
   color: var(--text-soft);
   margin-bottom: 8px;
 }
 
 .experience-desc {
   color: var(--text-main);
-  font-size: 0.95rem;
+  font-size: 0.94rem;
+  line-height: 1.8;
   margin: 0;
 }
 
@@ -469,12 +501,15 @@ redirect_from:
   display: inline-flex;
   align-items: center;
   gap: 8px;
+  font-family: var(--font-sans);
   padding: 10px 18px;
   border-radius: 999px;
   background: #fff;
   border: 1px solid var(--border-mid);
   color: var(--text-main) !important;
   font-weight: 600;
+  font-size: 0.92rem;
+  letter-spacing: 0.01em;
   text-decoration: none !important;
   transition: all 0.22s ease;
 }
@@ -512,7 +547,7 @@ redirect_from:
   }
 
   .hero-title {
-    font-size: 1.8rem;
+    font-size: 1.95rem;
   }
 
   .page__content {
@@ -520,7 +555,7 @@ redirect_from:
   }
 
   .section-title {
-    font-size: 1.35rem;
+    font-size: 1.28rem;
   }
 
   .projects-grid {
